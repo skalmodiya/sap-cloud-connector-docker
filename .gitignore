@@ -1,0 +1,44 @@
+# SAP binaries (do not redistribute)
+downloads/*
+!downloads/.gitkeep
+
+# SAP artifacts anywhere in the repo
+sapcc-*.zip
+sapcc-*.tar.gz
+sapjvm-*.zip
+sapjvm-*.rpm
+
+# Docker
+*.tar
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Docker overrides
+docker-compose.override.yml
+
+# Build artifacts
+dist/
+build/
+
+# Local SCC data (if you later mount volumes locally)
+scc-data/
+scc-config/

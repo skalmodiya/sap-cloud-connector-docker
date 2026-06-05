@@ -1,0 +1,9 @@
+services:
+  sap-cloud-connector:
+    build: .
+    container_name: sap-cloud-connector
+
+    ports:
+      - "8443:8443"
+
+    restart: unless-stopped
