@@ -31,7 +31,7 @@ This repository ships only the build recipe (`Dockerfile` + `docker-compose.yml`
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/skalmodiya/sap-cloud-connector.git
+git clone https://github.com/skalmodiya/sap-cloud-connector-docker.git
 cd sap-cloud-connector
 ```
 
